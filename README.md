@@ -24,7 +24,7 @@ pip install requests
 
 ```sh
 git init
-git clone https://github.com/SecondPort/Final-LAB3.git
+git clone https://github.com/matigodoy/Final-Lab3.git
 ```
 
 ## Implementación API 
