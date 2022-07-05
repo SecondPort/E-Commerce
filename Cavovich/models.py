@@ -12,9 +12,9 @@ class Estante(models.Model):
         return self.estante
 
 class Variedad(models.Model):
-    variedad = models.CharField(max_length=50)
+    categoria = models.CharField(max_length=50)
     def __str__(self) -> str:
-        return self.variedad
+        return self.categoria
 
 class Origen(models.Model):
     origen = models.CharField(max_length=50)
@@ -22,9 +22,9 @@ class Origen(models.Model):
         return self.origen
 
 class Bodega(models.Model):
-    bodega = models.CharField(max_length=50)
+    desarrolladora = models.CharField(max_length=50)
     def __str__(self) -> str:
-        return self.bodega
+        return self.desarrolladora
 
 class Vino(models.Model):
     nombre = models.CharField(max_length=100)
