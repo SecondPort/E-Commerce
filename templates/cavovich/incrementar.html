@@ -5,7 +5,7 @@
 
 <form action="{% url 'incrementarStock' %}" method="get">
     {% csrf_token %}
-    <h1>Datos del vino:</h1> <!-- Mostrar datos del vino lindo (para que el usuario sepa cual vino esta modificando)-->
+    <h1>Datos del juego:</h1> <!-- Mostrar datos del vino lindo (para que el usuario sepa cual vino esta modificando)-->
     <h2>Nombre: {{vino.nombre}}</h2>
     <h2>Cantidad actual: {{vino.cantidad}}</h2>
     <p>Cantidad para agregar: </p>
