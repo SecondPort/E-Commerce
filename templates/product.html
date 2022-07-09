@@ -36,18 +36,19 @@
             {% comment %} <form class="d-flex justify-content-left">
               <!-- Default input -->
               <input type="number" value="1" aria-label="Search" class="form-control" style="width: 100px">
-              <button class="btn btn-primary btn-md my-0 p" type="submit">
-                Add to cart
+                <p class="text-light ">Add to cart</p>
                 <i class="fas fa-shopping-cart ml-1"></i>
               </button>
 
             </form> {% endcomment %}
-            <a href="{{ object.get_add_to_cart_url }}" class="btn btn-primary btn-md my-0 p">
-              Add to cart
+            <a href="{{ object.get_add_to_cart_url }}" class="btn text-light btn-md my-0 p font-weight-bold" style="border-radius: 5em; background-color: #66BFBF">
+              Añadir al carrito
               <i class="fas fa-shopping-cart ml-1"></i>
             </a>
-            <a href="{{ object.get_remove_from_cart_url }}" class="btn btn-danger btn-md my-0 p">
+            <a href="{{ object.get_remove_from_cart_url }}" class="btn text-light btn-md my-0 p font-weight-bold " style="border-radius: 5em; background-color: #B20600; ">
               Remover del carrito
+              <i class="fas fa-trash ml-1"></i>
+
             </a>
 
           </div>
@@ -72,25 +73,10 @@
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus suscipit modi sapiente illo soluta odit
             voluptates,
             quibusdam officia. Neque quibusdam quas a quis? Molestias illo neque eum in laborum.</p>
-
         </div>
-        <!--Grid column-->
-
       </div>
-      <!--Grid row-->
-
-      <!--Grid row-->
-      <div class="row wow fadeIn">
-
-        <!--Grid column-->
-
-        <!--Grid column-->
-
-        <!--Grid column-->
-
+      <div class="pb-5">
       </div>
-      <!--Grid row-->
-
     </div>
   </main>
 
