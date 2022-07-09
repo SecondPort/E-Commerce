@@ -21,7 +21,7 @@
     body,
     header,
     .carousel {
-      height: 60vh;
+      padding-bottom: -20px;
     }
 
     @media (max-width: 740px) {
@@ -70,10 +70,10 @@
     {% block extra_body %}
     {% endblock %}
 
-    {% include "footer.html" %}
     {% include "scripts.html" %}
-
+    
     {% block extra_scripts %}
     {% endblock extra_scripts %}
+    {% include "footer.html" %}
 </body>
 </html>
